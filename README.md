@@ -62,7 +62,7 @@ v = visual mode
 :set nu = adds numbers to vi
 :set unnu = removes line numbers in vi  
 :w = saves files 
-SHIFT + zz = (normal) saves and exits
+SHIFT + zz = (normal) saves and exits.  
 hjkl = home row (arrows).  
   
 
