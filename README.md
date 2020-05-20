@@ -49,7 +49,11 @@ mv [current name] [new name] = to rename file.
 touch [file name] = makes file.    
 rm = deletes file. 
 cat = spits of content of the file  
-which (__) = shows location of program.  
+which (__) = shows location of program.   
+ping (website)= to check internet connection.  
+traceroute (website) = pings every router/server it goes through and prints it.   
+scp (file) (sshaddress) = sends files form local comp to remote comp.  
+
 
 ### VIM
 
