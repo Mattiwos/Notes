@@ -1,4 +1,4 @@
-# My Notes:
+# MNotes:
 
 ## Markdown (.md) notes (Day 2): 
 Contains example from [rwx](https://rwx.gg/basicmark/)
@@ -55,7 +55,7 @@ scp (file) (sshaddress) = sends files form local comp to remote comp.
 file (filename) = prints out what the file type is   
 less (filename) = lets us view contents of file and scroll up and down  
 cp item directory= copy files and eirectorie(Used for long files)  
-ln [-s to create sysmbolic link]*file* *link* = creates hard and symbolic links  
+ln [-s to create sysmbolic link]**file** **link** = creates hard and symbolic links  
 wildcards are * , ??? -number of characters and etc  
 type *command* = displays what kind of command the shell will execute 
 such as the location or if its a shell builtin command  
@@ -71,10 +71,17 @@ unalias *name* = removes alias
 cat [file] = reads one or more files and copies them to standard output  
 
 Piplines: The capability of commands to read data from standard input and
-sned to standard output  
+send to standard output.    
+'''
+command1 > file1
+command1 | command2
+'''  
+uniq - reports or omit repeated lines (usaly used with sort)   
+wc **file** = print s word count and bytes the files contained.  
+grep **pattern** {files ...} = prints lines matching a partern   
 
-
-
+head/ tails = prints first/ last part of files (10 lines)(-n to adjust)  
+  
 
 ### VIM
 
