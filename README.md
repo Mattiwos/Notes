@@ -65,23 +65,31 @@ man *program* = displays a programs manual page
 whatis *command* = displays a oneline maunual page descriptions  
 info - displays a program's info entry  
 alias *name*='*command*' = creates an alias for a command  
-unalias *name* = removes alias
+unalias *name* = removes alias  
 *item1* > *item2* = redirection operator which sends the output of item one to item 2 asn an input  
 *item1*[ls -l /usr/bin] >> *item2*[output.txt] = appends redirected output to a file instead of overwriting the file  
 cat [file] = reads one or more files and copies them to standard output  
 
 Piplines: The capability of commands to read data from standard input and
 send to standard output.    
-'''
-command1 > file1
+```
+command1 > file1  
 command1 | command2
-'''  
+```
 uniq - reports or omit repeated lines (usaly used with sort)   
 wc **file** = print s word count and bytes the files contained.  
 grep **pattern** {files ...} = prints lines matching a partern   
 
 head/ tails = prints first/ last part of files (10 lines)(-n to adjust)  
+ 	 
+
+tee – Read from Stdin and Output to Stdout and Files  
+```
+The tee program reads standard input and copies it to both standard output (allowing the data to continue down the pipeline) and to one or more files. 
   
+ls /usr/bin | tee ls.txt | grep zip  
+```
+
 
 ### VIM
 
